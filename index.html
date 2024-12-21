@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searchbar Suggestions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Suggestions from searchbar</p>
+    <input id="searchInput" class="search-bar" type="search" placeholder="Search" list="suggestions">
+    <datalist id="suggestions">
+        <option value="google"></option>
+        <option value="instagram"></option>
+        <option value="linked in"></option>
+        <option value="twitter"></option>
+        <option value="snapchat"></option>
+        <option value="youtube"></option>
+        <option value="hashnode"></option>
+        <option value="pinterest"></option>
+        <option value="Reddit"></option>
+        <option value="whatsapp"></option>
+    </datalist>
+    <button id="go-btn" type="button">Go</button>
+    <button id="themeToggle" type="button">Toggle Dark Mode</button>
+    <script src="script.js"></script>
+</body>
+</html>
